@@ -9,7 +9,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WPF-UI" Version="2.0.3" />
+	<PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ClashF.Core\ClashF.Core.fsproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\logo.png" />
   </ItemGroup>
 
 </Project>
